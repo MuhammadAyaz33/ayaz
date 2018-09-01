@@ -1,0 +1,129 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Catamaran';
+  font-weight: 800 !important;
+}
+header.masthead {
+  position: relative;
+  overflow: hidden;
+  top:70px;
+  padding-top: calc(5rem + 72px);
+  padding-bottom: 7rem;
+  background: #134E5E;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #71B280, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+header.masthead .masthead-content {
+  z-index: 1;
+  position: relative;
+}
+
+header.masthead .bg-circle {
+  z-index: 0;
+  position: absolute;
+  border-radius: 100%;
+
+}
+
+header.masthead .bg-circle-1 {
+  height: 85rem;
+  width: 85rem;
+  bottom: -55rem;
+  left: -55rem;
+}
+
+header.masthead .bg-circle-2 {
+  height: 50rem;
+  width: 50rem;
+  top: -25rem;
+  right: -25rem;
+}
+
+header.masthead .bg-circle-3 {
+  height: 20rem;
+  width: 20rem;
+  bottom: -10rem;
+  right: 5%;
+}
+
+header.masthead .bg-circle-4 {
+  height: 30rem;
+  width: 30rem;
+  top: -5rem;
+  right: 35%;
+}
+
+.main-input {
+  background: #f7f7f7;
+  font-size: 0.9rem;
+  border:1px #fff;
+  height: 60px;
+  opacity: 0.6;
+  width: 300px;
+  padding: 1rem;
+  line-height: 50px;
+}
+
+.btn-md {
+  text-transform: uppercase;
+  padding: 1.2rem 0.5rem;
+  border-radius: 0px;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.bg-black {
+  background-color: #000 !important;
+}
+.bg-primary {
+  background-color :#134E5E !important;
+}
+
+.btn-primary {
+  background-color: #134E5E;
+  border-color: #134E5E;
+  margin-left: -2px;
+  margin-top: -1px;
+  height: 60px;
+
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #71B280 !important;
+  border-color: #71B280 !important;
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0rem #134E5E;
+}
+.flex-container{
+  display: flex;
+  justify-content: center;
+}
+.alert{
+  width: 300px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 1em;
+}
+ @media (min-width: 992px) {
+  header.masthead {
+    padding-top: calc(8rem + 55px);
+    padding-bottom: 11rem;
+    top:80px;
+
+    
+  }
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 4rem;
+  }
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 2rem;
+  }
+
+} 
